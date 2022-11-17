@@ -308,6 +308,8 @@ group by 1
 |Y|52|
 |Yes|4623|
 
+We have different data in smaller number. Let's standardize them using the CASE WHEN function:
+
 ```sql
 Select SoldAsVacant
 , CASE When SoldAsVacant = 'Y' THEN 'Yes'
